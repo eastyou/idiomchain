@@ -1,0 +1,53 @@
+"""成语接龙：词库查询、接龙生成与可打印练习纸。"""
+
+from .model import (
+    DEFAULT_LENGTH,
+    IDIOMS,
+    MAX_LENGTH,
+    MIN_LENGTH,
+    IdiomError,
+    WorksheetItem,
+    build_chain,
+    build_worksheet,
+    chain_stats,
+    check_answer,
+    check_idiom,
+    check_length,
+    find_chains,
+    idioms_ending,
+    idioms_starting,
+    is_chain,
+    is_idiom,
+    is_idiom_word,
+    next_idioms,
+    normalize_chain,
+    previous_idioms,
+    solvable_starts,
+)
+
+__version__ = "0.1.0"
+
+__all__ = [
+    "DEFAULT_LENGTH",
+    "IDIOMS",
+    "MAX_LENGTH",
+    "MIN_LENGTH",
+    "IdiomError",
+    "WorksheetItem",
+    "build_chain",
+    "build_worksheet",
+    "chain_stats",
+    "check_answer",
+    "check_idiom",
+    "check_length",
+    "find_chains",
+    "idioms_ending",
+    "idioms_starting",
+    "is_chain",
+    "is_idiom",
+    "is_idiom_word",
+    "next_idioms",
+    "normalize_chain",
+    "previous_idioms",
+    "solvable_starts",
+]
